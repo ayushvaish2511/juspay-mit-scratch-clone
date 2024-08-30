@@ -71,34 +71,6 @@ const historyMap = {
     type: "THINK_THIRTY",
     val1: 30,
   },
-  // WAIT_FIVE: {
-  //   type: "WAIT_FIVE",
-  //   val1: 5,
-  // },
-  // WAIT_TEN: {
-  //   type: "WAIT_TEN",
-  //   val1: 10,
-  // },
-  // SIZE_HALF: {
-  //   type: "SIZE_HALF",
-  //   val1: 0.5,
-  // },
-  // SIZE_DOUBLE: {
-  //   type: "SIZE_DOUBLE",
-  //   val1: 2,
-  // },
-  // SIZE_RESET: {
-  //   type: "SIZE_RESET",
-  //   val1: 1,
-  // },
-  // SHOW: {
-  //   type: "SHOW",
-  //   val1: 0,
-  // },
-  // HIDE: {
-  //   type: "HIDE",
-  //   val1: 0,
-  // },
 };
 
 export default historyMap;
