@@ -8,9 +8,9 @@ module.exports = [
     mode: "development",
     target: "web",
     output: {
-      path: path.resolve(__dirname, "dist/client"),
-      filename: "client_bundle.js",
-    },
+    // filename: "app.js",
+    path: path.resolve(__dirname, "public"),
+  },
     plugins: [
       new HtmlWebpackPlugin({
         template: "./src/index.html",

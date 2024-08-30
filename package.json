@@ -1,5 +1,5 @@
 {
-  "name": "scratch-clone",
+  "name": "juspay-mit-scratch-clone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "npm-run-all -s build start"
   },
   "keywords": [],
-  "author": "tamalCodes",
+  "author": "ayushvaish2511",
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
