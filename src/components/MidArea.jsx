@@ -53,7 +53,7 @@ const MidArea = ({ add_list }) => {
             setactiveView("historyarea");
           }}
         >
-          History
+          Replay
           <HistoryIcon className="max-w-[20px] max-h-[20px]" />
         </h1>
 
