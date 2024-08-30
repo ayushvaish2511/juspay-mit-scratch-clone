@@ -28,18 +28,7 @@ const Sidebar = () => {
     "THINK_THIRTY",
   ];
 
-  const eventsComponents = ["BROADCAST"];
-
-  // const controlComponents = [
-  //   "WAIT_FIVE",
-  //   "WAIT_TEN",
-  //   "HIDE_MESSAGE",
-  //   "SIZE_HALF",
-  //   "SIZE_DOUBLE",
-  //   "SIZE_RESET",
-  //   "SHOW",
-  //   "HIDE",
-  // ];
+ 
   return (
     <div className="w-60 flex-none h-full overflow-y-auto flex flex-col items-start p-2 border-r border-gray-200">
       <h1 className="font-poppins text-2xl font-semibold mb-4">Sidebar</h1>
@@ -104,36 +93,6 @@ const Sidebar = () => {
           </ul>
         )}
       </Droppable>
-      {/* <h1 className="font-poppins text-xl font-semibold mt-3">Control</h1>
-      <Droppable droppableId="sideArea-looks" type="COMPONENTS">
-        {(provided) => (
-          <ul
-            className="sideArea-looks flex flex-col gap-0.5 items-center my-0 mb-10"
-            {...provided.droppableProps}
-            ref={provided.innerRef}
-          >
-            {controlComponents.map((Component, i) => (
-              <Draggable
-                key={`${Component}-sideArea`}
-                draggableId={`${Component}-sideArea`}
-                index={i}
-              >
-                {(provided) => (
-                  <li
-                    ref={provided.innerRef}
-                    {...provided.draggableProps}
-                    {...provided.dragHandleProps}
-                    className="w-[200px]"
-                  >
-                    {fetchComponent(Component)}
-                  </li>
-                )}
-              </Draggable>
-            ))}
-            {provided.placeholder}
-          </ul>
-        )}
-      </Droppable> */}
     </div>
   );
 };
